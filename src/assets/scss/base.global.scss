@@ -1,0 +1,32 @@
+body,
+html {
+  height: 100%;
+}
+
+#__next {
+  min-height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+body {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+
+  &:focus,
+  &:hover {
+    color: inherit;
+    outline: 0;
+  }
+
+  &:active {
+    color: inherit;
+  }
+}
